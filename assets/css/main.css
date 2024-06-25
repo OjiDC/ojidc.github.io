@@ -937,10 +937,8 @@ input, select, textarea {
 			width: 30%;
 			height: auto;
 			background-image: url('images/nityo.png');
-			margin: 0;
-			display: flex;
-			justify-content: center; /* Centers contents horizontally */
-			align-items: center; /* Centers contents vertically */
+			margin-left: 740px;
+			margin-top: -50px;
 		}
 
 		.image[data-position="right"] img {
