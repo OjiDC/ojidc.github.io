@@ -934,11 +934,11 @@ input, select, textarea {
 			-webkit-object-position: top right;
 			-ms-object-position: top right;
 			object-position: top right;
-			width: 30%;
+			width: 25%;
 			height: auto;
 			background-image: url('images/nityo.png');
 			margin-left: 900px;
-			margin-top: -70px;
+			margin-top: 70px;
 			z-index: 1;
 		}
 		.accenture[data-position="top right"] img {
