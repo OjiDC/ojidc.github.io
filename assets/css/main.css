@@ -913,6 +913,13 @@ input, select, textarea {
 			-webkit-object-position: top left;
 			-ms-object-position: top left;
 			object-position: top left;
+			width: 30%;
+			height: auto;
+			background-image: url('images/slu.png');
+			margin: 0;
+			display: flex;
+			justify-content: center; /* Centers contents horizontally */
+			align-items: center; /* Centers contents vertically */
 		}
 
 		.image[data-position="top"] img {
@@ -927,6 +934,13 @@ input, select, textarea {
 			-webkit-object-position: top right;
 			-ms-object-position: top right;
 			object-position: top right;
+			width: 30%;
+			height: auto;
+			background-image: url('images/nityo.png');
+			margin: 0;
+			display: flex;
+			justify-content: center; /* Centers contents horizontally */
+			align-items: center; /* Centers contents vertically */
 		}
 
 		.image[data-position="right"] img {
@@ -3426,16 +3440,17 @@ input, select, textarea {
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
 				object-fit: cover;
+				display: block;
 				position: absolute;
 				top: 0;
 				left: 0;
-				width: 30%;
+				/*width: 30%;
 				height: auto;
 				background-image: url('images/slu.png');
 				margin: 0;
 				display: flex;
 				justify-content: center; /* Centers contents horizontally */
-				align-items: center; /* Centers contents vertically */
+				/*align-items: center; /* Centers contents vertically */
 			}
 
 		.panel.spotlight.left {
