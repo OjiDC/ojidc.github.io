@@ -939,7 +939,7 @@ input, select, textarea {
 			background-image: url('images/nityo.png');
 			margin-left: 740px;
 			margin-top: -50px;
-			z-index: 1;
+			z-index: 5;
 		}
 		.accenture[data-position="top right"] img {
 			-moz-object-position: top right;
@@ -949,6 +949,18 @@ input, select, textarea {
 			width: 30%;
 			height: auto;
 			background-image: url('images/accenture.png');
+			margin-left: 850px;
+			margin-top: -90px;
+			z-index: 5;
+		}
+		.trend[data-position="top right"] img {
+			-moz-object-position: top right;
+			-webkit-object-position: top right;
+			-ms-object-position: top right;
+			object-position: top right;
+			width: 30%;
+			height: auto;
+			background-image: url('images/trend.png');
 			margin-left: 850px;
 			margin-top: -90px;
 			z-index: 5;
