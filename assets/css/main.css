@@ -939,6 +939,7 @@ input, select, textarea {
 			background-image: url('images/nityo.png');
 			margin-left: 740px;
 			margin-top: -50px;
+			z-index: 1;
 		}
 
 		.image[data-position="right"] img {
